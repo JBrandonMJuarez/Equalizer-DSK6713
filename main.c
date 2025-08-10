@@ -1,9 +1,3 @@
-/*************************************************************************
- *  Basic stereo loop code for C6713 DSK and AIC23 codec
- *  D. Richard Brown on 22-Aug-2011
- *  Based on code from "Real-Time Digital Signal Processing Based on TMS320C6000"
- *  by N. Kehtarnavaz and N. Kim.
- *************************************************************************/
 
 #define CHIP_6713 1
 
@@ -124,7 +118,7 @@ void main()
     while(1){
     }
 }
-// Note: Configurar optimizaci髇 de c骴igo y debug.
+// Note: Configurar optimizaci贸n de c贸digo y debug.
 /*
 interrupt void serialPortRcvISR()
 {
@@ -196,7 +190,7 @@ interrupt void serialPortRcvISR()
 
 
 
-// Note: Configurar optimizaci髇 de c骴igo y debug.
+// Note: Configurar optimizaci贸n de c贸digo y debug.
 interrupt void serialPortRcvISR()
 {
     //union {Uint32 combo; short channel[2];} temp;
@@ -363,3 +357,4 @@ interrupt void serialPortRcvISR()
     }
     return;
 }
+
